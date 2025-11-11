@@ -4,7 +4,7 @@ pipeline{
         stage('checkout'){
             steps{
                 git 'https://github.com/Srivatchava/devops_lab2.git'
-                bat 'echo checkout succues'
+                bat 'echo checkout succes'
             }
         }
         stage('build'){
