@@ -7,5 +7,15 @@ pipeline{
                 bat ' echo chekcout git'
             }
         }
+        stage('build'){
+            steps{
+                bat 'echo building '
+            }
+        }
+        stage('deop'){
+            steps{
+                bat 'echo depl '
+            }
+        }
     }
 }
